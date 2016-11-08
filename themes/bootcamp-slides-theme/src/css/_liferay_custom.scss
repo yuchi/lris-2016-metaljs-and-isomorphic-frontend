@@ -1,0 +1,18 @@
+@import "mixins_custom";
+
+@import "components/slides-pagination";
+@import "components/slides-footer";
+@import "components/slides-portlet";
+@import "components/slides-wrapper";
+
+body {
+  background: #F0F0F0;
+}
+
+.portlet-title-text {
+  color: $brand-primary;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,51 @@
+.portlet-borderless-slide,
+.portlet-decorate-slide {
+  .portlet-title-text {
+    max-width: none !important;
+  }
+
+  .portlet-content {
+    font-size: 4vmin;
+  }
+
+  pre {
+    font-size: inherit;
+  }
+
+  table {
+    border: 0 none;
+  }
+
+  tr + tr {
+    border-top: 1px solid rgba(0,0,0,0.2);
+  }
+
+  td, th {
+    padding: 0 0.2em;
+
+    &:first-child {
+      padding-left: 0px;
+    }
+
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+}
+
+.portlet-decorate-slide {
+  .portlet-content {
+    padding: 1em;
+    background: white;
+    border: 0 none;
+    border-radius: 0.2em;
+    box-shadow:
+      0px 0.1em 1em rgba(0,0,0,0.3),
+      0px 0px 0px 0.5px rgba(0,0,0,0.1);
+  }
+}
+
+.hljs {
+  padding: 0px !important;
+  background: none !important;
+}

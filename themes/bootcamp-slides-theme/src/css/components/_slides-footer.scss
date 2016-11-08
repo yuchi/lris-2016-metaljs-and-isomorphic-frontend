@@ -1,0 +1,17 @@
+.slides-footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  margin: 1em;
+  pointer-events: none;
+
+  p {
+    padding: 5px 10px;
+  }
+
+  p + p {
+    border-left: 1px solid;
+  }
+}

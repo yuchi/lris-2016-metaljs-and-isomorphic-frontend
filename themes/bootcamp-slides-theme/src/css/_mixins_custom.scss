@@ -1,0 +1,21 @@
+
+$control-menu-height: 0px !global;
+
+@mixin depends-on-control-menu {
+  $control-menu-height: 0px !global;
+  @content;
+
+  .has-control-menu & {
+    $control-menu-height: 48px !global;
+    @content;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .has-control-menu & {
+      $control-menu-height: 64px !global;
+      @content;
+    }
+  }
+
+  $control-menu-height: 0px !global;
+}

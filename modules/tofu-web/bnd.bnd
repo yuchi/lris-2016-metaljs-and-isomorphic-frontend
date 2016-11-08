@@ -1,0 +1,3 @@
+Bundle-SymbolicName: tofu-web
+Bundle-Version: 1.0.0
+Web-ContextPath: /tofu-web
