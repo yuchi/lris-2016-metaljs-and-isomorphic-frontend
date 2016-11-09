@@ -2,21 +2,21 @@
 import Component from 'metal-component/src/Component';
 import Soy from 'metal-soy/src/Soy';
 
-import templates from './Naive.soy';
+import templates from './Real.soy';
 
-export default class Naive extends Component {
+export default class Real extends Component {
 	onClick() {
 		this.counter += 1;
 	}
 }
 
-Naive.STATE = {
+Real.STATE = {
 	counter: {
-		value: 36
+		value: 0
 	},
 	id: {
 		value: ''
 	}
 };
 
-Soy.register(Naive, templates);
+Soy.register(Real, templates);

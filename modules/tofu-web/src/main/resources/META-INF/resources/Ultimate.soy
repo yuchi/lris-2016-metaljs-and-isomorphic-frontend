@@ -1,0 +1,16 @@
+{namespace Ultimate}
+/**
+ * @param counter
+ * @param href
+ * @param id
+ * @param onClick
+ */
+{template .render}
+	<div id="{$id}">
+		<a href="{$href}" onclick="{$onClick}" class="btn btn-block btn-success btn-lg">
+			<i class="icon-rocket"></i>
+			{sp}
+			{$counter}
+		</a>
+	</div>
+{/template}
